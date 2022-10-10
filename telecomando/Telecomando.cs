@@ -11,7 +11,6 @@ namespace telecomando
         private string produttore;
         private string modello;
         private string funzionamento;
-        
         private int canale;
         public Telecomando(string Ilproduttore, string Ilmodello, string Ilfunzionamento) 
         {
@@ -20,15 +19,9 @@ namespace telecomando
             funzionamento = Ilfunzionamento;                        
         }
 
-        public Telecomando(int ilcanale)
-        {
-            canale = ilcanale;
-        }
+        
 
-        public Telecomando(string ilmodello)
-        {
-            modello = ilmodello;
-        }
+        
         public void setCanale(int nuovoCanale)
         {
             canale = nuovoCanale;
